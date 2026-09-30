@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+
+    <h1>Registration Form</h1>
+
+    <form id="registrationForm">
+
+        <!-- Name -->
+        <div>
+            <label for="name">Name:</label>
+
+            <input type="text" id="name">
+
+            <span id="nameIcon"></span>
+
+            <p id="nameError"></p>
+        </div>
+
+
+        <!-- Email -->
+        <div>
+            <label for="email">Email:</label>
+
+            <input type="text" id="email">
+
+            <span id="emailIcon"></span>
+
+            <p id="emailError"></p>
+        </div>
+
+
+        <!-- Phone -->
+        <div>
+            <label for="phone">Phone:</label>
+
+            <input type="text" id="phone">
+
+            <span id="phoneIcon"></span>
+
+            <p id="phoneError"></p>
+        </div>
+
+
+        <!-- Password -->
+        <div>
+            <label for="password">Password:</label>
+
+            <input type="password" id="password">
+
+            <span id="passwordIcon"></span>
+
+            <p id="passwordError"></p>
+        </div>
+
+
+        <!-- Submit -->
+        <button type="submit" id="submitBtn" disabled>
+            Register
+        </button>
+
+    </form>
+
+
+    <script src="form.js"></script>
+
+</body>
+</html>
